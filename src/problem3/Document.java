@@ -7,7 +7,7 @@ public class Document {
 
     public Document(String title) {
         this.title = title;
-        this.numRec = counter++;
+        this.numRec = counter++; // auto incremental using static counter :)
     }
 
     public int getNumRec() {
